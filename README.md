@@ -1,5 +1,10 @@
 # Drug Orchestra Testing
 
+Drug Orchestra is a multi-learning machine learning algorithm that combines several datasets to merge the training and prediction of drug targets, response, and side effects.  For this model, more testing is required to paint a better view of drug orchestra's reliability with other algorithms and further testing on the intractability of the dataset. Algorithms have already been applied to predict each dataset, as well as on their intractability both as datasets and as whole tasks. These graphs will be used as a starting point to refer back to as I develop more algorithms for use and comparison. I have created several classification and regression algorithms for evaluating the performance of the data, along with accuracy and other goodness metrics in the form of a confusion matrix. The charts referred to before were used as a template to build upon or attempt to recreate with different algorithms. My results were relatively as expected and in-line with the prior charts, showing improvement gained from the use of Drug Orchestra as a complex model. There were outliers however, and parts of data that led to incorrect conclusions due to problems with data feature extraction and dimensionality reduction. The large amount of data, approximately 10.2 GB, created several issues in the prepossessing and processing of the data. To fix this, several techniques were used in tandem to make the data manageable, which made processing feasible but resulted in some information loss.
+
+Original Article: https://www.biorxiv.org/content/10.1101/2020.11.17.385757v1.full
+
+## Introduction
 
 When it comes to the complex prediction of how someone's genes affect drug targets, responses, and side effects, not many advancements have been made. Different models have individually been used on various datasets to test their accuracy, but no progress has been made in bridging the gap between these three areas. There is potential to transfer data between the types of predictive models to create more powerful algorithms through the cooperation and communication between these datasets.
 
